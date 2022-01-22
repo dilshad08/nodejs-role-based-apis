@@ -1,0 +1,27 @@
+{
+  "name": "assignment-api",
+  "version": "1.0.0",
+  "description": "This is a RESTful API example based on Node.js and MongoDB, following the **MVC pattern** i.e. Model ~~View~~ Controller.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "DILSHAD AHMAD",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "joi": "^17.5.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.2",
+    "mongoose-delete": "^0.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
